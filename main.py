@@ -1,4 +1,4 @@
-from jnius import autoclass
+from pyjnius import autoclass
 # Для начала нам нужна ссылка на Java Activity, в которой
 # запущено приложение, она хранится в загрузчике Kivy PythonActivity
 PythonActivity = autoclass('org.renpy.android.PythonActivity')
