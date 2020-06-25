@@ -5,4 +5,5 @@ PythonActivity = autoclass('org.renpy.android.PythonActivity')
 activity = PythonActivity.mActivity
 Context = autoclass('android.content.Context')
 vibrator = activity.getSystemService(Context.VIBRATOR_SERVICE)
-vibrator.vibrate(10000)  # аргумент указывается в миллисекундах
+while(True):
+	vibrator.vibrate(10000)  # аргумент указывается в миллисекундах
